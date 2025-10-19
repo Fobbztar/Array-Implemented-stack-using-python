@@ -1,7 +1,7 @@
 Stack = []
 p = 0 # p is for procedures
 top = 0
-Mtop = 0
+Mtop = 0 # Mtop is max size of stack
 while True:
     try:
         Mtop = int(input("How big would you like the stack to be?"))
